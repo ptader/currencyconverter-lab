@@ -3,6 +3,7 @@ kind: Ingress
 metadata:
   name: currency-converter-ingress
 spec:
+  ingressClassName: nginx
   rules:
   - host: currencyconverter.local
     http:

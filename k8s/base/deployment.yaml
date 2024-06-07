@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: currency-converter
-        image: ptader/currencyconverter:2.0
+        image: ptader/currencyconverter:7d11dc4
         ports:
         - containerPort: 5555
         env:

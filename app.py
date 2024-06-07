@@ -10,7 +10,7 @@ APIHOST = os.getenv("APIHOST")
 
 url = "https://currency-conversion-and-exchange-rates.p.rapidapi.com/convert"
 headers = {
-    "X-RapidAPI-Key": APIKEY,
+    "X-RapidAPI-Key": "APIKEY",
     "X-RapidAPI-Host": APIHOST,
 }
 
